@@ -1,0 +1,62 @@
+@import url(./vars.css);
+
+.form__info-group {
+  margin-bottom: 1.5rem;
+}
+
+.form__info-group__title {
+  margin-bottom: 0.7rem;
+}
+
+.form__field-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8rem;
+}
+
+.form__field-group__title {
+  margin-bottom: 0.4rem;
+}
+
+.form__field-group__input::placeholder {
+  font-family: var(--family-font);
+  color: var(--grisOscuro);
+}
+
+.form__field-group__input {
+  font-family: var(--family-font);
+  color: var(--grisOscuro);
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem;
+}
+
+.form__field-items {
+  margin-bottom: 0.4rem;
+}
+
+.form__field-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn--form-signup {
+  background-color: var(--celeste);
+  color: var(--blanco);
+}
+
+.btn--form-reset {
+  border: 1px solid var(--negro);
+}
+
+.btn--hover:hover {
+  background-color: #0022aa;
+  transition: 200ms ease-in-out;
+}
+
+@media only screen and (min-width: 640px) {
+  .form {
+    width: 50%;
+    margin: 0 auto;
+  }
+}

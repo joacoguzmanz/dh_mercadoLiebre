@@ -1,0 +1,50 @@
+@import url(./vars.css);
+
+.footer {
+  padding: 2rem 5% 0rem;
+}
+
+.info-group {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.info-group__icon {
+  margin-bottom: 0.625rem;
+  color: var(--celeste);
+  font-size: 2rem;
+}
+
+.info-group__title {
+  font-size: 1.5rem;
+  margin-bottom: 0.3125rem;
+}
+
+.info-group__body {
+  color: var(--grisOscuro);
+  font-size: 1rem;
+}
+
+.copyright {
+  color: var(--grisOscuro);
+  text-align: center;
+  font-size: 0.875rem;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (min-width: 640px) {
+  .footer {
+    padding: 3rem 10% 0rem;
+  }
+
+  .info-group__icon:hover {
+    color: #0022aa;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,57 @@
+:root {
+  /* Colours */
+  --amarillo: #eac926;
+  --azul: #03264c;
+  --celeste: #1259c3;
+  --grisOscuro: #666;
+  --grisClaro: #ebebeb;
+  --verde: #39b54a;
+  --negro: #000;
+  --blanco: #fff;
+  --celeste-oscuro: #0022aa;
+
+  /* Typography */
+  --family-font: 'Roboto', sans-serif;
+  --titles: 1.5rem; /* 24px */
+  --prices: 1.125rem; /* 18px */
+  --discounts: 1rem; /* 16px */
+  --descripciones: 1rem; /* 16px */
+  --small-text: 0.875rem; /*14px*/
+  --bodyText: 0.75rem; /* 12px */
+
+  /* Breakpoints */
+  /* 
+  tablet: 640px;
+  desktop: 1280px;
+   */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--family-font);
+}
+
+body {
+  font-family: var(--family-font);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: var(--negro);
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
